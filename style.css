@@ -376,7 +376,7 @@ footer p {
   height: auto;
   padding-top: 60px;
 }
-.web-grid h2,h3,p{
+.web-grid h2,.web-grid h3,.web-grid p{
   color: #CCC;
 }
 .web-grid h2 {
