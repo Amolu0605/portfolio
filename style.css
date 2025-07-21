@@ -332,7 +332,7 @@ footer p {
   height: auto;
   padding-top: 60px;
 }
-.theater-grid h2,h3,p{
+.theater-grid h2,.theater-grid h3,.theater-grid p{
   color: #22364B;
 }
 .theater-grid h2 {
