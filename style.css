@@ -70,10 +70,13 @@ section {
 }
 
 .other-header {
+  position: fixed;
   display: flex;
+  z-index: 1;
   color: #ccc;
   padding: 0 4%;
   background: #22364B;
+  width: 100vw;
 }
 
 h1 {
@@ -114,19 +117,20 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   font-size: 128px;
   text-align: center;
-  padding-top: 375px;
+  padding-top: 37vh;
 }
 
 /*About*/
 #About {
   background-color: #22364B;
-  min-height: 79vh;
-  padding: 126px 0 70px;
+  min-height: 100vh;
+  /* min-width: 65vw; */
+  /* padding: 126px 0 70px; */
 }
 
 #About h2 {
   font-size: 64px;
-  padding: 51px 0 0;
+  padding: 15vh 0 0;
 }
 
 #About h3 {
@@ -166,17 +170,17 @@ a:hover {
 
 #Works h2 {
   font-size: 96px;
-  padding: 184px 0 0px 184px;
+  padding: 19vh 0 0px 16vw;
 }
 
 .works-list {
-  padding: 5px 0 0 440px;
+  padding: 5px 0 0 33vw;
 }
 
 #Works li {
   list-style: none;
   font-size: 48px;
-  padding: 22px 0 30px;
+  padding: 1vh 0 4vh;
 }
 
 /*Contact*/
@@ -324,18 +328,23 @@ footer p {
 .theater-table li {
   text-align: left;
 }
-.theater-table a{
+
+.theater-table a {
   color: #22364B;
 }
 
 .theater-grid {
-  background-color:#ccc;
+  background-color: #ccc;
   height: auto;
   padding-top: 60px;
 }
-.theater-grid h2,.theater-grid h3,.theater-grid p{
+
+.theater-grid h2,
+.theater-grid h3,
+.theater-grid p {
   color: #22364B;
 }
+
 .theater-grid h2 {
   text-align: left;
   font-size: 42px;
@@ -368,18 +377,23 @@ footer p {
 .web-table li {
   text-align: left;
 }
-.web-table a{
+
+.web-table a {
   color: #ccc;
 }
 
 .web-grid {
-  background-color:#2f6daf;
+  background-color: #2f6daf;
   height: auto;
   padding-top: 60px;
 }
-.web-grid h2,.web-grid h3,.web-grid p{
+
+.web-grid h2,
+.web-grid h3,
+.web-grid p {
   color: #CCC;
 }
+
 .web-grid h2 {
   text-align: left;
   font-size: 42px;
